@@ -17,7 +17,7 @@ RUN apt-get install -y \
     rm -rf /var/cache/apt
 
 # Download and install Flutter + essential tools
-RUN curl -L https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_2.10.1-stable.tar.xz | tar -C /opt -xJ
+RUN curl -L https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.0.5-stable.tar.xz | tar -C /opt -xJ
 RUN apt-get update
 RUN apt-get install -y lib32stdc++6
 RUN apt-get install unzip
