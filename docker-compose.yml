@@ -1,0 +1,8 @@
+version: '3'
+services:
+  kittys_tavern:
+    build: .
+    image: blair/kittys_tavern
+    container_name: "kittys_tavern"
+    ports:
+      - "6868:6868"
